@@ -1,0 +1,52 @@
+@import "../Utilidades/variables";
+@import "../Utilidades/mixin";
+@import "../Utilidades/extend";
+
+main{
+    .contenedorInicioUno{
+        @include ContenedorInicio;
+        padding-top: 2rem;
+        .titulosInicio1{
+            color: $color-titulos;
+            font-family: $font-titulos;
+        }
+        .pInicio1{
+            color: $color-parrafos;
+            font-family: $font-textos;
+            padding-left: 4rem;
+            padding-right: 4rem;
+            padding-top: 2rem;
+        }
+    }
+    .imgsInicio{
+        height: 45% ;
+        width: 100%;
+        display: grid;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+        .imgDespacho{
+            width: 200px;
+        }
+        .imgHistoria{
+            width: 200px;
+        }
+    }
+    .contenedorInicioDos{
+        @include ContenedorInicio;
+        .titulosInicio2{
+            color: $color-titulos;
+            font-family: $font-titulos;
+        }
+        .pInicio2{
+            color: $color-parrafos;
+            font-family: $font-textos;
+            padding-top: 1rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
+            padding-bottom: 2rem;
+        }
+    }
+}

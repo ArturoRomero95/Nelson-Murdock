@@ -1,0 +1,30 @@
+@import "../Utilidades/variables";
+
+
+%ImgAbogados{
+    padding: 1rem;
+    justify-self: center;
+    align-self: center;
+    }
+
+%TitulosLogros{
+    text-align: center;
+    color: $color-titulos;
+    font-weight: bolder;
+    font-family: $font-titulos;
+    margin-top: 1rem;
+    }
+
+%TituloClientes{
+        text-align: center;
+        color: $color-titulos;
+        font-weight: bold;
+        font-family: $font-titulos;
+        margin-top: 1rem;
+    }
+
+%PClientes{
+        text-align: center;
+        color: $color-parrafos;
+        font-family: $font-textos;
+    }

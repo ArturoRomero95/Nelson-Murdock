@@ -1,0 +1,63 @@
+@import "../Utilidades/variables";
+
+@mixin ContenedorInicio{
+    color: $color-titulos;
+    font-family: $font-textos ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+
+
+@mixin NombresAbogados{
+    align-self: end;
+    color: $color-titulos;
+    font-weight: bold;
+    font-family: $font-titulos
+}
+
+@mixin pAbogados{
+    color: $color-parrafos;
+    font-family: $font-textos
+}
+
+@mixin PLogros{
+    text-align: center;
+    color: $color-parrafos;
+    font-family: $font-textos;
+    margin: 10px;
+}
+
+@mixin ContenedorLogros{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@mixin ImagenLogros{
+    height: 45% ;
+    width: 100%;
+    display: grid;
+    margin-bottom: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+@mixin WidthLogros{
+    width: 40vh;
+}
+
+@mixin ImagenClientes{
+    height: 45% ;
+    width: 100%;
+    display: grid;
+    margin-bottom: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+@mixin ContenedorClientes{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}

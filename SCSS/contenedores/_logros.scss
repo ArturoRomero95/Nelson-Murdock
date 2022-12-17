@@ -1,0 +1,82 @@
+@import "../Utilidades/variables";
+@import "../Utilidades/mixin";
+@import "../Utilidades/extend";
+
+main{
+    div{
+        .imagenUnoLogros{
+            @include ImagenLogros;
+            margin-top: 2rem;
+                .CF{
+                    @include WidthLogros;
+                }
+                .KP{
+                    @include WidthLogros;
+                }
+        }
+        .contenedorUnoLogros{
+            @include ContenedorLogros;
+            grid-template-rows: 100px 100px;
+                .tituloUnoLogros{
+                    @extend %TitulosLogros;
+                }
+                .tituloDosLogros{
+                    @extend %TitulosLogros;
+                    justify-content: center;
+                }
+                .pUnoLogros{
+                    @include PLogros;
+                    font-size: 90%;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                }
+                .pDosLogros{
+                    @include PLogros;
+                    font-size: 90%;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                }
+        }
+    }
+    div{
+        .imagenDosLogros{
+            @include ImagenLogros;
+            margin-top: 3rem;
+                .JS{
+                    @include WidthLogros;
+                }
+                .DC{
+                    @include WidthLogros;
+                }
+        }
+        .contenedorDosLogros{
+            @include ContenedorLogros;
+            grid-template-rows: 170px 170px;
+                .tituloTresLogros{
+                    @extend %TitulosLogros;
+                    margin-bottom: 2rem;
+                    height: fit-content;
+                }
+                .tituloCuatroLogros{
+                    @extend %TitulosLogros;
+                    justify-content: center;
+                    margin-bottom: 2rem;
+                    height: fit-content;
+                }
+                .pTresLogros{
+                    @include PLogros;
+                    padding-bottom: 2rem;
+                    font-size: 90%;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                }
+                .pCuatroLogros{
+                    @include PLogros;
+                    padding-bottom: 2rem;
+                    font-size: 90%;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                }
+        }
+    }
+}

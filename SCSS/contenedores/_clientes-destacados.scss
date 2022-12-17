@@ -1,0 +1,75 @@
+@import "../Utilidades/variables";
+@import "../Utilidades/mixin";
+@import "../Utilidades/extend";
+
+main{
+    .imagenUnoClientes{
+        @include ImagenClientes;
+        margin-top: 3rem;
+        .CFC{
+            width: 50vh;
+            padding-left: 1rem;
+        }
+        .NM{
+            width: 30vh;
+        }
+    }
+    .contenedorUnoClientes{
+        @include ContenedorClientes;
+        grid-template-rows: 50px 80px;
+            .tituloUnoClientes{
+                @extend %TituloClientes;
+            }
+            .tituloDosClientes{
+                @extend %TituloClientes;
+                justify-content: center;
+            }
+            .pUnoClientes{
+                @extend %PClientes;
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+            .pDosClientes{
+                @extend %PClientes;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                
+            }
+    }
+    .imagenDosClientes{
+        @include ImagenClientes;
+        margin-top: 3rem;
+        .SM{
+            width: 50vh;
+            padding-left: 1rem;
+        }
+        .DD{
+            width: 30vh;
+        }
+    }
+    .contenedorDosClientes{
+        @include ContenedorClientes;
+        grid-template-rows: 50px 150px;
+            .tituloTresClientes{
+                @extend %TituloClientes;
+            }
+            .tituloCuatroClientes{
+                @extend %TituloClientes;
+                justify-content: center;
+            }
+            .pTresClientes{
+                @extend %PClientes;
+                margin: 2px;
+                padding-bottom: 2rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+            .pCuatroClientes{
+                @extend %PClientes;
+                margin: 2px;
+                padding-bottom: 2rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+    }
+}

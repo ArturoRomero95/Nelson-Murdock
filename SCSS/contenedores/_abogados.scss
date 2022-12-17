@@ -1,0 +1,54 @@
+@import "../Utilidades/variables";
+@import "../Utilidades/mixin";
+@import "../Utilidades/extend";
+
+main{
+    .contenedorDos{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            "imgMatt Matt Matt"
+            "imgMatt pAbogadosUno pAbogadosUno"
+            "imgFoggy Foggy Foggy"
+            "imgFoggy pAbogadosDos pAbogadosDos";
+            .imgMatt{
+                @extend %ImgAbogados;
+                grid-area: imgMatt;
+            }
+            .imgFoggy{
+                @extend %ImgAbogados;
+                grid-area: imgFoggy;
+            }
+            .Matt{
+                @include NombresAbogados;
+                grid-area: Matt;
+                padding-left: 1rem;
+                padding-bottom: 1rem;
+            }
+            .Foggy{
+                @include NombresAbogados;
+                grid-area: Foggy;
+                padding-left: 1rem;
+                padding-bottom: 1rem;
+            }
+            .pAbogadosUno{
+                @include pAbogados;
+                grid-area: pAbogadosUno;
+                padding-right: 3rem;
+                padding-left: 1rem;
+            }
+            .pAbogadosDos{
+                @include pAbogados;
+                grid-area: pAbogadosDos;
+                padding-right: 3rem;
+                padding-left: 1rem;
+            }
+            .imagenAbogadosUno{
+                grid-area: imagenAbogadosUno;
+            }
+            .imagenAbogadosDos{
+                grid-area: imagenAbogadosDos;
+            }
+    }
+}

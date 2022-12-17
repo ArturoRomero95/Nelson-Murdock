@@ -1,0 +1,451 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+main .contenedorDos .imgMatt, main .contenedorDos .imgFoggy {
+  padding: 1rem;
+  justify-self: center;
+  align-self: center; }
+
+main div .contenedorUnoLogros .tituloUnoLogros, main div .contenedorUnoLogros .tituloDosLogros, main div .contenedorDosLogros .tituloTresLogros, main div .contenedorDosLogros .tituloCuatroLogros {
+  text-align: center;
+  color: #690f0f;
+  font-weight: bolder;
+  font-family: "Kanit", sans-serif;
+  margin-top: 1rem; }
+
+main .contenedorUnoClientes .tituloUnoClientes, main .contenedorUnoClientes .tituloDosClientes, main .contenedorDosClientes .tituloTresClientes, main .contenedorDosClientes .tituloCuatroClientes {
+  text-align: center;
+  color: #690f0f;
+  font-weight: bold;
+  font-family: "Kanit", sans-serif;
+  margin-top: 1rem; }
+
+main .contenedorUnoClientes .pUnoClientes, main .contenedorUnoClientes .pDosClientes, main .contenedorDosClientes .pTresClientes, main .contenedorDosClientes .pCuatroClientes {
+  text-align: center;
+  color: #f7f3f3;
+  font-family: "Ubuntu", sans-serif; }
+
+main .contenedorDos .imgMatt, main .contenedorDos .imgFoggy {
+  padding: 1rem;
+  justify-self: center;
+  align-self: center; }
+
+main div .contenedorUnoLogros .tituloUnoLogros, main div .contenedorUnoLogros .tituloDosLogros, main div .contenedorDosLogros .tituloTresLogros, main div .contenedorDosLogros .tituloCuatroLogros {
+  text-align: center;
+  color: #690f0f;
+  font-weight: bolder;
+  font-family: "Kanit", sans-serif;
+  margin-top: 1rem; }
+
+main .contenedorUnoClientes .tituloUnoClientes, main .contenedorUnoClientes .tituloDosClientes, main .contenedorDosClientes .tituloTresClientes, main .contenedorDosClientes .tituloCuatroClientes {
+  text-align: center;
+  color: #690f0f;
+  font-weight: bold;
+  font-family: "Kanit", sans-serif;
+  margin-top: 1rem; }
+
+main .contenedorUnoClientes .pUnoClientes, main .contenedorUnoClientes .pDosClientes, main .contenedorDosClientes .pTresClientes, main .contenedorDosClientes .pCuatroClientes {
+  text-align: center;
+  color: #f7f3f3;
+  font-family: "Ubuntu", sans-serif; }
+
+main .contenedorInicioUno {
+  color: #690f0f;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 2rem; }
+  main .contenedorInicioUno .titulosInicio1 {
+    color: #690f0f;
+    font-family: "Kanit", sans-serif; }
+  main .contenedorInicioUno .pInicio1 {
+    color: #f7f3f3;
+    font-family: "Ubuntu", sans-serif;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem; }
+
+main .imgsInicio {
+  height: 45%;
+  width: 100%;
+  display: grid;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center; }
+  main .imgsInicio .imgDespacho {
+    width: 200px; }
+  main .imgsInicio .imgHistoria {
+    width: 200px; }
+
+main .contenedorInicioDos {
+  color: #690f0f;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  main .contenedorInicioDos .titulosInicio2 {
+    color: #690f0f;
+    font-family: "Kanit", sans-serif; }
+  main .contenedorInicioDos .pInicio2 {
+    color: #f7f3f3;
+    font-family: "Ubuntu", sans-serif;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem; }
+
+main .contenedorDos .imgMatt, main .contenedorDos .imgFoggy {
+  padding: 1rem;
+  justify-self: center;
+  align-self: center; }
+
+main div .contenedorUnoLogros .tituloUnoLogros, main div .contenedorUnoLogros .tituloDosLogros, main div .contenedorDosLogros .tituloTresLogros, main div .contenedorDosLogros .tituloCuatroLogros {
+  text-align: center;
+  color: #690f0f;
+  font-weight: bolder;
+  font-family: "Kanit", sans-serif;
+  margin-top: 1rem; }
+
+main .contenedorUnoClientes .tituloUnoClientes, main .contenedorUnoClientes .tituloDosClientes, main .contenedorDosClientes .tituloTresClientes, main .contenedorDosClientes .tituloCuatroClientes {
+  text-align: center;
+  color: #690f0f;
+  font-weight: bold;
+  font-family: "Kanit", sans-serif;
+  margin-top: 1rem; }
+
+main .contenedorUnoClientes .pUnoClientes, main .contenedorUnoClientes .pDosClientes, main .contenedorDosClientes .pTresClientes, main .contenedorDosClientes .pCuatroClientes {
+  text-align: center;
+  color: #f7f3f3;
+  font-family: "Ubuntu", sans-serif; }
+
+main .contenedorDos {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "imgMatt Matt Matt" "imgMatt pAbogadosUno pAbogadosUno" "imgFoggy Foggy Foggy" "imgFoggy pAbogadosDos pAbogadosDos"; }
+  main .contenedorDos .imgMatt {
+    grid-area: imgMatt; }
+  main .contenedorDos .imgFoggy {
+    grid-area: imgFoggy; }
+  main .contenedorDos .Matt {
+    align-self: end;
+    color: #690f0f;
+    font-weight: bold;
+    font-family: "Kanit", sans-serif;
+    grid-area: Matt;
+    padding-left: 1rem;
+    padding-bottom: 1rem; }
+  main .contenedorDos .Foggy {
+    align-self: end;
+    color: #690f0f;
+    font-weight: bold;
+    font-family: "Kanit", sans-serif;
+    grid-area: Foggy;
+    padding-left: 1rem;
+    padding-bottom: 1rem; }
+  main .contenedorDos .pAbogadosUno {
+    color: #f7f3f3;
+    font-family: "Ubuntu", sans-serif;
+    grid-area: pAbogadosUno;
+    padding-right: 3rem;
+    padding-left: 1rem; }
+  main .contenedorDos .pAbogadosDos {
+    color: #f7f3f3;
+    font-family: "Ubuntu", sans-serif;
+    grid-area: pAbogadosDos;
+    padding-right: 3rem;
+    padding-left: 1rem; }
+  main .contenedorDos .imagenAbogadosUno {
+    grid-area: imagenAbogadosUno; }
+  main .contenedorDos .imagenAbogadosDos {
+    grid-area: imagenAbogadosDos; }
+
+main .contenedorDos .imgMatt, main .contenedorDos .imgFoggy {
+  padding: 1rem;
+  justify-self: center;
+  align-self: center; }
+
+main div .contenedorUnoLogros .tituloUnoLogros, main div .contenedorUnoLogros .tituloDosLogros, main div .contenedorDosLogros .tituloTresLogros, main div .contenedorDosLogros .tituloCuatroLogros {
+  text-align: center;
+  color: #690f0f;
+  font-weight: bolder;
+  font-family: "Kanit", sans-serif;
+  margin-top: 1rem; }
+
+main .contenedorUnoClientes .tituloUnoClientes, main .contenedorUnoClientes .tituloDosClientes, main .contenedorDosClientes .tituloTresClientes, main .contenedorDosClientes .tituloCuatroClientes {
+  text-align: center;
+  color: #690f0f;
+  font-weight: bold;
+  font-family: "Kanit", sans-serif;
+  margin-top: 1rem; }
+
+main .contenedorUnoClientes .pUnoClientes, main .contenedorUnoClientes .pDosClientes, main .contenedorDosClientes .pTresClientes, main .contenedorDosClientes .pCuatroClientes {
+  text-align: center;
+  color: #f7f3f3;
+  font-family: "Ubuntu", sans-serif; }
+
+main div .imagenUnoLogros {
+  height: 45%;
+  width: 100%;
+  display: grid;
+  margin-bottom: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin-top: 2rem; }
+  main div .imagenUnoLogros .CF {
+    width: 40vh; }
+  main div .imagenUnoLogros .KP {
+    width: 40vh; }
+
+main div .contenedorUnoLogros {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 100px; }
+  main div .contenedorUnoLogros .tituloDosLogros {
+    justify-content: center; }
+  main div .contenedorUnoLogros .pUnoLogros {
+    text-align: center;
+    color: #f7f3f3;
+    font-family: "Ubuntu", sans-serif;
+    margin: 10px;
+    font-size: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  main div .contenedorUnoLogros .pDosLogros {
+    text-align: center;
+    color: #f7f3f3;
+    font-family: "Ubuntu", sans-serif;
+    margin: 10px;
+    font-size: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+main div .imagenDosLogros {
+  height: 45%;
+  width: 100%;
+  display: grid;
+  margin-bottom: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin-top: 3rem; }
+  main div .imagenDosLogros .JS {
+    width: 40vh; }
+  main div .imagenDosLogros .DC {
+    width: 40vh; }
+
+main div .contenedorDosLogros {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 170px 170px; }
+  main div .contenedorDosLogros .tituloTresLogros {
+    margin-bottom: 2rem;
+    height: fit-content; }
+  main div .contenedorDosLogros .tituloCuatroLogros {
+    justify-content: center;
+    margin-bottom: 2rem;
+    height: fit-content; }
+  main div .contenedorDosLogros .pTresLogros {
+    text-align: center;
+    color: #f7f3f3;
+    font-family: "Ubuntu", sans-serif;
+    margin: 10px;
+    padding-bottom: 2rem;
+    font-size: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  main div .contenedorDosLogros .pCuatroLogros {
+    text-align: center;
+    color: #f7f3f3;
+    font-family: "Ubuntu", sans-serif;
+    margin: 10px;
+    padding-bottom: 2rem;
+    font-size: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+main .contenedorDos .imgMatt, main .contenedorDos .imgFoggy {
+  padding: 1rem;
+  justify-self: center;
+  align-self: center; }
+
+main div .contenedorUnoLogros .tituloUnoLogros, main div .contenedorUnoLogros .tituloDosLogros, main div .contenedorDosLogros .tituloTresLogros, main div .contenedorDosLogros .tituloCuatroLogros {
+  text-align: center;
+  color: #690f0f;
+  font-weight: bolder;
+  font-family: "Kanit", sans-serif;
+  margin-top: 1rem; }
+
+main .contenedorUnoClientes .tituloUnoClientes, main .contenedorUnoClientes .tituloDosClientes, main .contenedorDosClientes .tituloTresClientes, main .contenedorDosClientes .tituloCuatroClientes {
+  text-align: center;
+  color: #690f0f;
+  font-weight: bold;
+  font-family: "Kanit", sans-serif;
+  margin-top: 1rem; }
+
+main .contenedorUnoClientes .pUnoClientes, main .contenedorUnoClientes .pDosClientes, main .contenedorDosClientes .pTresClientes, main .contenedorDosClientes .pCuatroClientes {
+  text-align: center;
+  color: #f7f3f3;
+  font-family: "Ubuntu", sans-serif; }
+
+main .imagenUnoClientes {
+  height: 45%;
+  width: 100%;
+  display: grid;
+  margin-bottom: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin-top: 3rem; }
+  main .imagenUnoClientes .CFC {
+    width: 50vh;
+    padding-left: 1rem; }
+  main .imagenUnoClientes .NM {
+    width: 30vh; }
+
+main .contenedorUnoClientes {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50px 80px; }
+  main .contenedorUnoClientes .tituloDosClientes {
+    justify-content: center; }
+  main .contenedorUnoClientes .pUnoClientes {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+  main .contenedorUnoClientes .pDosClientes {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
+main .imagenDosClientes {
+  height: 45%;
+  width: 100%;
+  display: grid;
+  margin-bottom: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin-top: 3rem; }
+  main .imagenDosClientes .SM {
+    width: 50vh;
+    padding-left: 1rem; }
+  main .imagenDosClientes .DD {
+    width: 30vh; }
+
+main .contenedorDosClientes {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50px 150px; }
+  main .contenedorDosClientes .tituloCuatroClientes {
+    justify-content: center; }
+  main .contenedorDosClientes .pTresClientes {
+    margin: 2px;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+  main .contenedorDosClientes .pCuatroClientes {
+    margin: 2px;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+
+main .contenedorDos .imgMatt, main .contenedorDos .imgFoggy {
+  padding: 1rem;
+  justify-self: center;
+  align-self: center; }
+
+main div .contenedorUnoLogros .tituloUnoLogros, main div .contenedorUnoLogros .tituloDosLogros, main div .contenedorDosLogros .tituloTresLogros, main div .contenedorDosLogros .tituloCuatroLogros {
+  text-align: center;
+  color: #690f0f;
+  font-weight: bolder;
+  font-family: "Kanit", sans-serif;
+  margin-top: 1rem; }
+
+main .contenedorUnoClientes .tituloUnoClientes, main .contenedorUnoClientes .tituloDosClientes, main .contenedorDosClientes .tituloTresClientes, main .contenedorDosClientes .tituloCuatroClientes {
+  text-align: center;
+  color: #690f0f;
+  font-weight: bold;
+  font-family: "Kanit", sans-serif;
+  margin-top: 1rem; }
+
+main .contenedorUnoClientes .pUnoClientes, main .contenedorUnoClientes .pDosClientes, main .contenedorDosClientes .pTresClientes, main .contenedorDosClientes .pCuatroClientes {
+  text-align: center;
+  color: #f7f3f3;
+  font-family: "Ubuntu", sans-serif; }
+
+.datos {
+  color: #690f0f;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  font-size: xx-large; }
+
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.nombre {
+  padding-bottom: 1rem; }
+
+.caso {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.input {
+  padding-bottom: 1rem; }
+
+body {
+  background-color: #646464; }
+  body header .logo {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    margin: 1rem;
+    padding: 1rem; }
+  body header .menuMQ {
+    display: none; }
+
+@media (min-width: 1200px) {
+  body header .container {
+    display: none; }
+  body header .menuMQ {
+    background-color: #4e0e0e;
+    display: block;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 2; }
+    body header .menuMQ ul li {
+      margin: 10px;
+      padding: 10px;
+      display: inline-block; }
+      body header .menuMQ ul li a {
+        color: #f1ecec;
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: x-large; }
+    body header .menuMQ ul li:hover {
+      background-color: #7e1214;
+      transform: scale(0.8);
+      box-shadow: 2px 2px 5px black;
+      transition: .3s; } }
+
+footer {
+  text-align: end;
+  color: #f7f3f3;
+  font-family: "Kanit", sans-serif;
+  margin: 0px;
+  padding-right: 1rem;
+  padding-top: 6px;
+  box-sizing: border-box;
+  background-color: #721718;
+  height: 70px; }

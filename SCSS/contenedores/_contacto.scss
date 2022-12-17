@@ -1,0 +1,33 @@
+@import "../Utilidades/variables";
+@import "../Utilidades/mixin";
+@import "../Utilidades/extend";
+
+.datos{
+    color: $color-titulos;
+    font-family: $font-titulos;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.form{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre{
+    padding-bottom: 1rem;
+}
+
+.caso{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.input{
+   padding-bottom: 1rem;
+}
